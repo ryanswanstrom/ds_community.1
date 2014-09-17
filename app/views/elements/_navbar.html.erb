@@ -11,12 +11,15 @@
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
+
+  <div class="collapse navbar-collapse" id="navbar-collapse-1">
+    <ul class="nav navbar-nav">
+        <li><%= link_to "Colleges", defined?(colleges_path) ? colleges_path : "#" %></li>
+        <li><%= link_to "Bootcamps", defined?(bootcamps_path) ? bootcamps_path : "#" %></li>
+    </ul>
 <%
 =begin 
 %>
-  <div class="collapse navbar-collapse" id="navbar-collapse-1">
-    <ul class="nav navbar-nav">
-    </ul>
     <ul class="nav navbar-nav navbar-right">
       <% if defined?(Devise) %>
         <% if user_signed_in? %>
@@ -34,8 +37,9 @@
         <% end %>
       <% end %>
     </ul>
-  </div><!-- /.navbar-collapse -->
 <%
 =end
 %>
+  </div><!-- /.navbar-collapse -->
+
 </nav>
