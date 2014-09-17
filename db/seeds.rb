@@ -634,16 +634,6 @@ School.create(
   oncampus: false,
     department: 'School of Information')
 School.create(
-    name: 'Master of Science in Analytics  | University of Chicago',
-    url: 'https://grahamschool.uchicago.edu/credit/master-science-analytics/index',
-    program: 'Master of Science in Analytics  | University of Chicago',
-    degree: 'Master of Science in Analytics  | University of Chicago',
-    country: 'US',
-    state: '',
-    online: false,
-    oncampus: true,
-    department: '')
-School.create(
     name: 'Universitat Pompeu Fabra',
     url: 'http://www.upf.edu/iis/program.html',
     program: 'Intelligent Interactive Systems',
@@ -1454,16 +1444,6 @@ School.create(
     oncampus: true,
   department: 'Business')
 School.create(
-    name: 'University of Maryland',
-    url: 'http://www.rhsmith.umd.edu/ms/analytics/',
-    program: 'Marketing Analytics',
-  degree: 'Masters',
-    country: 'US',
-    state: 'MD',
-    online: false,
-    oncampus: true,
-department: 'Business')
-School.create(
   name: 'University of Connecticut',
     url: 'http://msbapm.uconn.edu/',
     program: 'Business Analytics and Project Management',
@@ -1715,14 +1695,14 @@ School.create(
     department: '')
 School.create(
     name: 'College of Charleston',
-    url: 'http://www.cofc.edu/academics/majorsandminors/data-science.php',
+  url: 'http://datascience.cofc.edu/',
     program: 'Data Science',
   degree: 'Bachelors',
     country: 'US',
-    state: 'VA',
+    state: 'SC',
     online: false,
     oncampus: true,
-    department: '')
+  department: 'Computer Science')
 School.create(
   name: 'New York University (NYU)',
     url: 'http://www.stern.nyu.edu/programs-admissions/global-degrees/business-analytics/index.htm',
