@@ -1,4 +1,5 @@
 ActiveAdmin.register School do
+  permit_params :name, :url, :program, :degree, :country, :state, :online, :oncampus, :department
 
 
   # See permitted parameters documentation:
