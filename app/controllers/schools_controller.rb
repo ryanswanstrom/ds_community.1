@@ -1,4 +1,4 @@
 class SchoolsController < ApplicationController
-  def index
+  def colleges
   end
 end
