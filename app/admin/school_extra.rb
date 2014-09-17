@@ -1,4 +1,5 @@
 ActiveAdmin.register SchoolExtra do
+  permit_params :gre, :gmat, :schoolyear
 
 
   # See permitted parameters documentation:
