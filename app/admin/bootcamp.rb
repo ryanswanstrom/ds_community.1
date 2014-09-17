@@ -1,4 +1,5 @@
 ActiveAdmin.register Bootcamp do
+  permit_params :name, :url, :program, :country, :state, :online, :txt
 
 
   # See permitted parameters documentation:
