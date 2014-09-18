@@ -2064,7 +2064,16 @@ School.create(
   oncampus: true,
   department: 'Engineering')
 
+# bootcamps
 
+Bootcamp.create(
+  name: 'Zipfian Academy,
+  url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
+program: 'Data Science',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  txt: '')
 
 
 
