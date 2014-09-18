@@ -3,6 +3,7 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
         :recoverable, :rememberable, :trackable, :validatable
+  validates_uniqueness_of :username
   attr_accessor :login
   
   #->Prelang (user_login:devise/username_login_support)
