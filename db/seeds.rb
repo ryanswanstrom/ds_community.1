@@ -2099,13 +2099,41 @@ School.create(
 # bootcamps
 
 Bootcamp.create(
-  name: 'Zipfian Academy,
-  url: 'http://www.eecs.berkeley.edu/MEng/index.shtml',
-program: 'Data Science',
+  name: 'Zipfian Academy',
+  url: 'http://www.zipfianacademy.com/programs/#datascienceprogram',
+  program: 'Data Science Immersive',
   country: 'US',
   state: 'CA',
   online: false,
-  txt: '')
+  txt: '12 week program',
+  price: 16000)
+Bootcamp.create(
+  name: 'Zipfian Academy',
+  url: 'http://www.zipfianacademy.com/programs/#dataengprogram',
+  program: 'Data Engineering Immersive',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  txt: '12 week program',
+  price: 16000)
+Bootcamp.create(
+  name: 'Insight Data Science',
+  url: 'http://www.insightdatascience.com',
+  program: 'Data Science',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  txt: '6 week program, PhD required',
+  price: 0)
+Bootcamp.create(
+  name: 'Insight Data Engineering',
+  url: 'http://insightdataengineering.com',
+  program: 'Data Engineering',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  txt: '6 week program, PhD required',
+  price: 0)
 
 
 
