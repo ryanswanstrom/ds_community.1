@@ -54,6 +54,7 @@ ActiveRecord::Schema.define(version: 20140917042139) do
     t.string   "state"
     t.boolean  "online"
     t.text     "txt"
+    t.decimal  "price"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
