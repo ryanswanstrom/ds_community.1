@@ -8,12 +8,12 @@
         <a class="pw-button-linkedin pw-look-native"></a>
         <a class="pw-button-post-share"></a>		
       </div>
-      <script src="" type="text/<%='http://i.po.st/static/v3/post-widget.js#publisherKey=' + (Rails.env.production? ? ENV['POST_KEY'] : 'abc') + '&retina=true' %>javascript"></script>
+      <script src="<%='http://i.po.st/static/v3/post-widget.js#publisherKey=' + (Rails.env.production? ? ENV['POST_KEY'] : 'abc') + '&retina=true' %>" type="text/javascript"></script>
     </p>
     <p>
       Download:
-      <%= link_to "CSV", colleges_path(format: "csv") %> |
-      <%= link_to "JSON", colleges_path(format: "json") %>
+      <%= link_to "CSV", bootcamps_path(format: "csv") %> |
+      <%= link_to "JSON", bootcamps_path(format: "json") %>
     </p>
     <table id="bootcamps_table" class='table table-striped table-hover'>
       <thead>
