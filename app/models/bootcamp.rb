@@ -1,7 +1,6 @@
 class Bootcamp < ActiveRecord::Base
   validates_formatting_of :url, using: :url
   validates_presence_of :name, :url, :program
-  validates_uniqueness_of :url
   acts_as_votable 
   
   def self.to_csv
