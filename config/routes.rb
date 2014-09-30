@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   get 'colleges', to: 'schools#colleges'
-#  get 'bootcamps', to: 'bootcamps#bootcamps'
+  get 'bootcamps', to: 'bootcamps#bootcamps'
 
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
