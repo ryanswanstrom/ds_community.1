@@ -6,6 +6,7 @@ class CreateBootcamps < ActiveRecord::Migration
       t.string :program
       t.string :country
       t.string :state
+      t.integer :price
       t.boolean :online
       t.text :txt
 
