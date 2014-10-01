@@ -2161,6 +2161,33 @@ Bootcamp.create(
   online: true,
   txt: 'Untimed Challenge-based program',
   price: 0)
+Bootcamp.create(
+  name: 'Persontyle',
+  url: 'http://www.persontyle.com/school/',
+  program: 'Data Science',
+  country: 'GB',
+  state: '',
+  online: false,
+  txt: '6 week program, PhD required, located in London',
+  price: 0)
+Bootcamp.create(
+  name: 'Big Dive',
+  url: 'http://www.persontyle.com/school/',
+  program: 'Hacking and Data Visualization',
+  country: 'IT',
+  state: '',
+  online: false,
+  txt: '5 week program, prices vary, located in Torino, Italy',
+  price: 1200)
+Bootcamp.create(
+  name: 'Big Data Bootcamp',
+  url: 'http://ampcamp.berkeley.edu/',
+  program: 'Big Data from AmpLab',
+  country: 'US',
+  state: 'CA',
+  online: true,
+  txt: 'Training for big data tools, specifically products from the UC Berkeley AMPLab',
+  price: 600)
 
 
 
