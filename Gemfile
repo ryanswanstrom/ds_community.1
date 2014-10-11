@@ -52,6 +52,7 @@ gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
 gem 'bootstrap-sass-extras'
 gem 'country_select', github: 'stefanpenner/country_select'
 gem 'rails_12factor'
+gem 'gravtastic'
 
 group :development, :test do
   gem 'dotenv-rails'
