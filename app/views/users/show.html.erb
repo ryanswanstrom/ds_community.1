@@ -1,0 +1,8 @@
+<h2><%= @user.username %></h2>
+<%= @user.email %>
+<%= image_tag @user.gravatar_url(:size => 300) %>
+
+<% if user_signed_in? %>
+<%= link_to "Edit", defined?(edit_user_registration_path) ? edit_user_registration_path : "#" %> |
+<%= link_to "Logout", defined?(destroy_user_session_path) ? destroy_user_session_path : "#", :method => :delete %>
+<% end %>
