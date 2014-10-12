@@ -53,6 +53,7 @@ gem 'bootstrap-sass-extras'
 gem 'country_select', github: 'stefanpenner/country_select'
 gem 'rails_12factor'
 gem 'gravtastic'
+gem 'font-awesome-rails'
 
 group :development, :test do
   gem 'dotenv-rails'
