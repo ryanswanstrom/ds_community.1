@@ -1,21 +1,171 @@
+<%- title "#{@user.username}" %>
+
 <div class="row">
   <div class="col-md-8 col-md-offset-2">
+    
+    <div class="row">
+      <div class="col-md-5">
+        <%= image_tag @user.gravatar_url(:size => 200), :class=>"img-rounded" %>
+      </div>
+      <div class="col-md-7">
+        <h1 class="page-header">Ryan Swanstrom <small>Data Scientist</small></h1>
+        
+        <p>
+          I am a data science blogger, software engineering, web developer, husband,
+          dad, and christian.  I love to build things and change the world.  Lets go
+          change the world together.  Are you with me?
+        </p>
+        <p>
+          <button type="button" class="btn btn-outline btn-primary btn-sm">R</button>
+          <button type="button" class="btn btn-outline btn-primary btn-sm">SQL</button>
+          <button type="button" class="btn btn-outline btn-primary btn-sm">Python</button>
+          <button type="button" class="btn btn-outline btn-primary btn-sm">Java</button>
+          <button type="button" class="btn btn-outline btn-primary btn-sm">Statistics</button>
+        </p>
+      </div>  
+    </div>
+    
+    <div class="row">
+      <div class="col-md-5">
+        <p>
+          <br/>
+        <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
+        <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
+        <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
+        <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
+        <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
+        </p>
+        <p>
+          <a href="http://ryanswanstrom.com" target='_blank'> http://ryanswanstrom.com</a>
+        </p>
+      </div>
+      <div class="col-md-7">
+      </div>  
+    </div>
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="page-header">Data Science Projects</h2>
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
+    
+    <div class="row">
+      
+      <div class="col-md-6">
+        <div class="panel panel-green">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-tasks fa-5x"></i>
+              </div>
+              <div class="col-xs-9 text-right">
+                <div class="huge">12</div>
+                <div>New Tasks!</div>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer">
+              <span class="pull-left">View Details</span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-comments fa-5x"></i>
+              </div>
+              <div class="col-xs-9 text-right">
+                <div class="huge">26</div>
+                <div>New Comments!</div>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer">
+              <span class="pull-left">View Details</span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-yellow">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-shopping-cart fa-5x"></i>
+              </div>
+              <div class="col-xs-9 text-right">
+                <div class="huge">124</div>
+                <div>New Orders!</div>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer">
+              <span class="pull-left">View Details</span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="panel panel-red">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col-xs-3">
+                <i class="fa fa-support fa-5x"></i>
+              </div>
+              <div class="col-xs-9 text-right">
+                <div class="huge">13</div>
+                <div>Support Tickets!</div>
+              </div>
+            </div>
+          </div>
+          <a href="#">
+            <div class="panel-footer">
+              <span class="pull-left">View Details</span>
+              <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+              <div class="clearfix"></div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 class="page-header">Skills</h2>
+      </div>
+      <!-- /.col-lg-12 -->
+    </div>
 
-    <h1 class="page-header">Ryan Swanstrom <small>Data Scientist</small></h1>
-
-    <%= image_tag @user.gravatar_url(:size => 200), :class=>"img-rounded" %>
-    <%= @user.username %>
-    <%= @user.email %>
-
-    <% if user_signed_in? %>
-    <%= link_to "Edit", defined?(edit_user_registration_path) ? edit_user_registration_path : "#" %> |
-    <%= link_to "Logout", defined?(destroy_user_session_path) ? destroy_user_session_path : "#", :method => :delete %>
-    <% end %>
-    <br/>
-    <a class="btn btn-social-icon btn-facebook"><i class="fa fa-facebook"></i></a>
-    <a class="btn btn-social-icon btn-github"><i class="fa fa-github"></i></a>
-    <a class="btn btn-social-icon btn-google-plus"><i class="fa fa-google-plus"></i></a>
-    <a class="btn btn-social-icon btn-linkedin"><i class="fa fa-linkedin"></i></a>
-    <a class="btn btn-social-icon btn-twitter"><i class="fa fa-twitter"></i></a>
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,15 +2,6 @@
   <div class="col-md-12">
     <h1 class="page-header">Data Science Bootcamps</h1>
     <p>
-      <div class="pw-widget pw-counter-horizontal">
-        <a class="pw-button-facebook pw-look-native"></a>
-        <a class="pw-button-twitter pw-look-native"></a>
-        <a class="pw-button-linkedin pw-look-native"></a>
-        <a class="pw-button-post-share"></a>		
-      </div>
-      <script src="<%='http://i.po.st/static/v3/post-widget.js#publisherKey=' + (Rails.env.production? ? ENV['POST_KEY'] : 'abc') + '&retina=true' %>" type="text/javascript"></script>
-    </p>
-    <p>
       Download:
       <%= link_to "CSV", bootcamps_path(format: "csv") %> |
       <%= link_to "JSON", bootcamps_path(format: "json") %>
