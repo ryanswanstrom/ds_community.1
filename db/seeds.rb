@@ -2093,6 +2093,26 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Computer Science')
+School.create(
+  name: 'Sabancı University',
+  url: 'http://da.sabanciuniv.edu/en',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'TR',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: 'Engineering')
+School.create(
+  name: 'University of Louisville',
+  url: 'http://louisville.edu/online/programs/graduate-certificate-programs/graduate-certificate-in-data-mining',
+  program: 'Data Mining',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'KY',
+  online: true,
+  oncampus: false,
+  department: 'Computer Science')
 
 
 
@@ -2188,6 +2208,15 @@ Bootcamp.create(
   online: true,
   txt: 'Training for big data tools, specifically products from the UC Berkeley AMPLab',
   price: 600)
+Bootcamp.create(
+  name: 'Statistics.com',
+  url: 'http://www.statistics.com/data-science',
+  program: 'Data Science Certificate',
+  country: 'US',
+  state: '',
+  online: true,
+  txt: 'Excellent online courses in stats and data science',
+  price: 549)
 
 
 
