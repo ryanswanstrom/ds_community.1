@@ -2113,6 +2113,16 @@ School.create(
   online: true,
   oncampus: false,
   department: 'Computer Science')
+School.create(
+  name: 'Southern Methodist University',
+  url: 'http://datascience.smu.edu',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'US',
+  state: 'TX',
+  online: true,
+  oncampus: false,
+  department: '')
 
 
 
