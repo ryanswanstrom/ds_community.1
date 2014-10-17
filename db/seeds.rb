@@ -2171,7 +2171,7 @@ Bootcamp.create(
   country: 'US',
   state: 'CA',
   online: false,
-  txt: '6 week program, PhD required',
+  txt: '6 week program, no PhD required',
   price: 0)
 Bootcamp.create(
   name: 'The Data Incubator',
