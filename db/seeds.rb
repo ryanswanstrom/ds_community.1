@@ -465,8 +465,8 @@ School.create(
     department: '')
 School.create(
   name: 'Barcelona School of Management',
-    url: 'http://www.barcelonaschoolofmanagement.upf.edu/msc-programme-in-business-analytics/presentation',
-  program: 'Business Analytics',
+    url: 'http://www.barcelonaschoolofmanagement.upf.edu/master-of-science-in-management-specialization-in-business-analytics',
+    program: 'Management - Business Analytics',
     degree: 'Masters',
     country: 'ES',
     state: '',
