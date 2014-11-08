@@ -2123,6 +2123,16 @@ School.create(
   online: true,
   oncampus: false,
   department: '')
+School.create(
+  name: 'University of Barcelona',
+  url: 'http://www.barcelonagse.eu/data-science-master-degree.html',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'ES',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
 
 
 
@@ -2227,6 +2237,15 @@ Bootcamp.create(
   online: true,
   txt: 'Excellent online courses in stats and data science',
   price: 549)
+Bootcamp.create(
+  name: 'Metis',
+  url: 'http://www.thisismetis.com/data-science',
+  program: 'Data Science',
+  country: 'US',
+  state: 'NY',
+  online: false,
+  txt: 'No PhD required, full-time',
+  price: 14000)
 
 
 
