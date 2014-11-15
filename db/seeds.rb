@@ -2133,119 +2133,139 @@ School.create(
   online: false,
   oncampus: true,
   department: '')
+School.create(
+  name: 'Mackenzie Presbyterian Institute',
+  url: 'http://www.mackenzie.br/27582.html',
+  program: 'Big Data Analytics',
+  degree: 'Masters',
+  country: 'BR',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'GalvanizeU (University of New Haven)',
+  url: 'http://www.galvanizeu.com/',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: '')
 
 
 
 # bootcamps
 
-Bootcamp.create(
-  name: 'Zipfian Academy',
-url: 'http://www.zipfianacademy.com/programs/#datascienceprogram',
-  program: 'Data Science Immersive',
-  country: 'US',
-  state: 'CA',
-  online: false,
-  txt: '12 week program',
-  price: 16000)
-Bootcamp.create(
-  name: 'Zipfian Academy',
-url: 'http://www.zipfianacademy.com/programs/#dataengprogram',
-  program: 'Data Engineering Immersive',
-  country: 'US',
-  state: 'CA',
-  online: false,
-  txt: '12 week program',
-  price: 16000)
-Bootcamp.create(
-  name: 'Insight Data Science',
-  url: 'http://www.insightdatascience.com',
-  program: 'Data Science',
-  country: 'US',
-  state: 'CA',
-  online: false,
-  txt: '6 week program, PhD required',
-  price: 0)
-Bootcamp.create(
-  name: 'Insight Data Science',
-  url: 'http://www.insightdatascience.com',
-  program: 'Data Science',
-  country: 'US',
-  state: 'NY',
-  online: false,
-  txt: '6 week program, PhD required',
-  price: 0)
-Bootcamp.create(
-  name: 'Insight Data Engineering',
-  url: 'http://insightdataengineering.com',
-  program: 'Data Engineering',
-  country: 'US',
-  state: 'CA',
-  online: false,
-  txt: '6 week program, no PhD required',
-  price: 0)
-Bootcamp.create(
-  name: 'The Data Incubator',
-  url: 'http://www.thedataincubator.com/?ch=em&ref=79da01853004',
-  program: 'Data Science',
-  country: 'US',
-  state: 'NY',
-  online: false,
-  txt: '6 week program, PhD required',
-  price: 0)
-Bootcamp.create(
-  name: 'Leada',
-  url: 'http://www.teamleada.com/',
-  program: 'Data Science',
-  country: 'US',
-  state: 'CA',
-  online: true,
-  txt: 'Untimed Challenge-based program',
-  price: 0)
-Bootcamp.create(
-  name: 'Persontyle',
-  url: 'http://www.persontyle.com/school/',
-  program: 'Data Science',
-  country: 'GB',
-  state: '',
-  online: false,
-  txt: '6 week program, PhD required, located in London',
-  price: 0)
-Bootcamp.create(
-  name: 'Big Dive',
-  url: 'http://www.persontyle.com/school/',
-  program: 'Hacking and Data Visualization',
-  country: 'IT',
-  state: '',
-  online: false,
-  txt: '5 week program, prices vary, located in Torino, Italy',
-  price: 1200)
-Bootcamp.create(
-  name: 'Big Data Bootcamp',
-  url: 'http://ampcamp.berkeley.edu/',
-  program: 'Big Data from AmpLab',
-  country: 'US',
-  state: 'CA',
-  online: true,
-  txt: 'Training for big data tools, specifically products from the UC Berkeley AMPLab',
-  price: 600)
-Bootcamp.create(
-  name: 'Statistics.com',
-  url: 'http://www.statistics.com/data-science',
-  program: 'Data Science Certificate',
-  country: 'US',
-  state: '',
-  online: true,
-  txt: 'Excellent online courses in stats and data science',
-  price: 549)
-Bootcamp.create(
-  name: 'Metis',
-  url: 'http://www.thisismetis.com/data-science',
-  program: 'Data Science',
-  country: 'US',
-  state: 'NY',
-  online: false,
-  txt: 'No PhD required, full-time',
-  price: 14000)
+# Bootcamp.create(
+#   name: 'Zipfian Academy',
+# url: 'http://www.zipfianacademy.com/programs/#datascienceprogram',
+#   program: 'Data Science Immersive',
+#   country: 'US',
+#   state: 'CA',
+#   online: false,
+#   txt: '12 week program',
+#   price: 16000)
+# Bootcamp.create(
+#   name: 'Zipfian Academy',
+# url: 'http://www.zipfianacademy.com/programs/#dataengprogram',
+#   program: 'Data Engineering Immersive',
+#   country: 'US',
+#   state: 'CA',
+#   online: false,
+#   txt: '12 week program',
+#   price: 16000)
+# Bootcamp.create(
+#   name: 'Insight Data Science',
+#   url: 'http://www.insightdatascience.com',
+#   program: 'Data Science',
+#   country: 'US',
+#   state: 'CA',
+#   online: false,
+#   txt: '6 week program, PhD required',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'Insight Data Science',
+#   url: 'http://www.insightdatascience.com',
+#   program: 'Data Science',
+#   country: 'US',
+#   state: 'NY',
+#   online: false,
+#   txt: '6 week program, PhD required',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'Insight Data Engineering',
+#   url: 'http://insightdataengineering.com',
+#   program: 'Data Engineering',
+#   country: 'US',
+#   state: 'CA',
+#   online: false,
+#   txt: '6 week program, no PhD required',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'The Data Incubator',
+#   url: 'http://www.thedataincubator.com/?ch=em&ref=79da01853004',
+#   program: 'Data Science',
+#   country: 'US',
+#   state: 'NY',
+#   online: false,
+#   txt: '6 week program, PhD required',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'Leada',
+#   url: 'http://www.teamleada.com/',
+#   program: 'Data Science',
+#   country: 'US',
+#   state: 'CA',
+#   online: true,
+#   txt: 'Untimed Challenge-based program',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'Persontyle',
+#   url: 'http://www.persontyle.com/school/',
+#   program: 'Data Science',
+#   country: 'GB',
+#   state: '',
+#   online: false,
+#   txt: '6 week program, PhD required, located in London',
+#   price: 0)
+# Bootcamp.create(
+#   name: 'Big Dive',
+#   url: 'http://www.persontyle.com/school/',
+#   program: 'Hacking and Data Visualization',
+#   country: 'IT',
+#   state: '',
+#   online: false,
+#   txt: '5 week program, prices vary, located in Torino, Italy',
+#   price: 1200)
+# Bootcamp.create(
+#   name: 'Big Data Bootcamp',
+#   url: 'http://ampcamp.berkeley.edu/',
+#   program: 'Big Data from AmpLab',
+#   country: 'US',
+#   state: 'CA',
+#   online: true,
+#   txt: 'Training for big data tools, specifically products from the UC Berkeley AMPLab',
+#   price: 600)
+# Bootcamp.create(
+#   name: 'Statistics.com',
+#   url: 'http://www.statistics.com/data-science',
+#   program: 'Data Science Certificate',
+#   country: 'US',
+#   state: '',
+#   online: true,
+#   txt: 'Excellent online courses in stats and data science',
+#   price: 549)
+# Bootcamp.create(
+#   name: 'Metis',
+#   url: 'http://www.thisismetis.com/data-science',
+#   program: 'Data Science',
+#   country: 'US',
+#   state: 'NY',
+#   online: false,
+#   txt: 'No PhD required, full-time',
+#   price: 14000)
 
 
 
