@@ -2266,6 +2266,15 @@ School.create(
 #   online: false,
 #   txt: 'No PhD required, full-time',
 #   price: 14000)
+Bootcamp.create(
+  name: 'NYC Data Science',
+  url: 'http://nycdatascience.com/bootcamp/',
+  program: 'Data Science',
+  country: 'US',
+  state: 'NY',
+  online: false,
+  txt: 'M.S. or PhD required, full-time',
+  price: 16000)
 
 
 
