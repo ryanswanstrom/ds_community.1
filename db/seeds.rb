@@ -2153,6 +2153,26 @@ School.create(
   online: false,
   oncampus: true,
   department: '')
+School.create(
+  name: 'BAICR',
+  url: 'http://www.baicr.it/palinsesto-geografico/data-science',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'IT',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Data ScienceTech Institute',
+  url: 'https://www.datasciencetech.institute/',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'FR',
+  state: '',
+  online: false,
+  oncampus: true,
+  department: '')
 
 
 
