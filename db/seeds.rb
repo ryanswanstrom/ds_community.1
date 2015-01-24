@@ -2325,6 +2325,15 @@ School.create(
 #   online: false,
 #   txt: '12 week full-time program',
 #   price: 16000)
+Bootcamp.create(
+  name: 'Data Science Retreat',
+  url: 'http://datascienceretreat.com/',
+  program: 'Data Science',
+  country: 'DE',
+  state: '',
+  online: false,
+  txt: '13 week full-time program',
+  price: 8000)
 
 
 
