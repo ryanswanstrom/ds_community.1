@@ -2203,6 +2203,66 @@ School.create(
     online: false,
     oncampus: true,
   department: 'Business')
+School.create(
+    name: 'Saint Mary\'s College',
+    url: 'https://grad.saintmarys.edu/academic-programs/ms-data-science',
+  program: 'Data Science',
+  degree: 'Masters',
+    country: 'US',
+    state: 'IN',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Auburn University',
+    url: 'http://harbert.auburn.edu/academics/undergraduate/business-analytics/index.php',
+  program: 'Data Science',
+  degree: 'Bachelors',
+    country: 'US',
+    state: 'AL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Austin Peay State University',
+    url: 'http://www.apsu.edu/csci/psm-information',
+  program: 'Predictive Analytics',
+  degree: 'Masters',
+    country: 'US',
+    state: 'TN',
+  online: true,
+  oncampus: true,
+  department: 'Computer Science')
+School.create(
+  name: 'Baker College',
+    url: 'http://www.baker.edu/programs-degrees/business-intelligence-master-ba/',
+  program: 'Business Intelligence',
+  degree: 'Masters',
+    country: 'US',
+    state: 'MI',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of Alabama',
+    url: 'http://manderson.cba.ua.edu/academics/departments/mba_program/curriculum',
+  program: 'Business Analytics',
+  degree: 'Masters',
+    country: 'US',
+    state: 'AL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Alabama',
+    url: 'http://manderson.cba.ua.edu/academics/departments/masters_program/master_of_science_in_applied_statistics',
+  program: 'Applied Statistics',
+  degree: 'Masters',
+    country: 'US',
+    state: 'AL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
 
 
 
