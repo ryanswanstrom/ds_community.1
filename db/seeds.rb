@@ -2433,6 +2433,46 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Business')
+School.create(
+  name: 'University of California, Irvine',
+  url: 'http://unex.uci.edu/areas/it/predictive_analytics/',
+  program: 'Predictive Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CA',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of California, San Diego',
+  url: 'http://extension.ucsd.edu/programs/index.cfm?vAction=certDetail&vCertificateID=128&vStudyAreaID=14',
+  program: 'Data Mining',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CA',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of Southern California',
+  url: 'http://www.marshall.usc.edu/msanalytics',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Southern California',
+  url: 'http://hcda.usc.edu/program/',
+  program: 'Healthcare Decision Analysis',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Pharmacy')
 
 
 
