@@ -2373,6 +2373,46 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Computer Science')
+School.create(
+  name: 'San Jose State University',
+  url: 'http://www.sjsu.edu/lucasschool/bacertificate/',
+  program: 'Business Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CA',
+  online: true,
+  oncampus: false,
+  department: 'Business')
+School.create(
+  name: 'Santa Clara University',
+  url: 'http://www.scu.edu/business/graduates/current-students/data-science.cfm',
+  program: 'Data Science and Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Stanford University',
+  url: 'http://cs.stanford.edu/degrees/mscs/specializations/#IMA',
+  program: 'Information Management and Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Computer Science')
+School.create(
+  name: 'Stanford University',
+  url: 'https://statistics.stanford.edu/academics/ms-statistics-data-science',
+  program: 'Data Science',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Statistics')
 
 
 
