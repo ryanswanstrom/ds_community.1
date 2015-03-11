@@ -2413,6 +2413,27 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Statistics')
+School.create(
+  name: 'University of California, Davis',
+  url: 'http://www.ucdmc.ucdavis.edu/informatics/masters/',
+  program: 'Health Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Medicine')
+School.create(
+  name: 'University of California, Davis',
+  url: 'http://gsm.ucdavis.edu/bay-area-mba',
+  program: 'Health Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+
 
 
 
