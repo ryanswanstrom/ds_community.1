@@ -2352,7 +2352,7 @@ School.create(
   state: 'SD',
   online: false,
   oncampus: true,
-  department: 'Math and Statistics')
+  department: 'Mathematics and Statistics')
 School.create(
   name: 'National University',
   url: 'http://www.nu.edu/OurPrograms/SchoolOfEngineeringAndTechnology/ComputerScienceAndInformationSystems/Programs/MasterofScienceinDataAnalytics.html',
@@ -2426,7 +2426,7 @@ School.create(
 School.create(
   name: 'University of California, Davis',
   url: 'http://gsm.ucdavis.edu/bay-area-mba',
-  program: 'Health Informatics',
+  program: 'Business Analytics',
   degree: 'Masters',
   country: 'US',
   state: 'CA',
@@ -2437,16 +2437,6 @@ School.create(
   name: 'University of California, Irvine',
   url: 'http://unex.uci.edu/areas/it/predictive_analytics/',
   program: 'Predictive Analytics',
-  degree: 'Certificate',
-  country: 'US',
-  state: 'CA',
-  online: true,
-  oncampus: false,
-  department: '')
-School.create(
-  name: 'University of California, San Diego',
-  url: 'http://extension.ucsd.edu/programs/index.cfm?vAction=certDetail&vCertificateID=128&vStudyAreaID=14',
-  program: 'Data Mining',
   degree: 'Certificate',
   country: 'US',
   state: 'CA',
@@ -2473,6 +2463,106 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Pharmacy')
+School.create(
+  name: 'Colorado State University, Fort Collins',
+  url: 'http://www.online.colostate.edu/certificates/applied-statistics/',
+  program: 'Applied Statistics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CO',
+  online: true,
+  oncampus: false,
+  department: 'Statistics')
+School.create(
+  name: 'Colorado State University, Fort Collins',
+  url: 'http://www.online.colostate.edu/degrees/applied-statistics/',
+  program: 'Applied Statistics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CO',
+  online: true,
+  oncampus: false,
+  department: 'Statistics')
+School.create(
+  name: 'Colorado State University, Fort Collins',
+  url: 'http://www.online.colostate.edu/certificates/data-analysis/',
+  program: 'Data Analysis',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CO',
+  online: true,
+  oncampus: false,
+  department: 'Statistics')
+School.create(
+  name: 'University of Colorado, Denver',
+  url: 'http://catalog.ucdenver.edu/preview_program.php?catoid=7&poid=1329&returnto=827',
+  program: 'Applied Statistics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CO',
+  online: false,
+  oncampus: true,
+  department: 'Mathematics and Statistics')
+School.create(
+  name: 'University of Colorado, Denver',
+  url: 'http://www.ucdenver.edu/academics/colleges/business/degrees/ms/business-analytics/Pages/Big-Data.aspx',
+  program: 'Business Analytics - Big Data',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CO',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Colorado, Denver',
+  url: 'http://catalog.ucdenver.edu/preview_program.php?catoid=10&poid=2105&returnto=1350',
+  program: 'Decision Sciences',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CO',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Denver',
+  url: 'http://daniels.du.edu/masters-degrees/business-analytics/',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CO',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Quinnipiac University',
+  url: 'http://www.quinnipiac.edu/academics/qu-online/online-programs/online-graduate-programs/master-of-science-in-business-analytics/',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CT',
+  online: true,
+  oncampus: false,
+  department: 'Business')
+School.create(
+  name: 'American University',
+  url: 'http://www.american.edu/kogod/graduate/MS-ANLT.cfm',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'DC',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Georgetown University',
+  url: 'http://gradanalytics.georgetown.edu/',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'DC',
+  online: false,
+  oncampus: true,
+  department: 'Business')
 
 
 
