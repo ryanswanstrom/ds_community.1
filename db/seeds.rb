@@ -2263,6 +2263,118 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Business')
+School.create(
+  name: 'University of Arizona',
+    url: 'http://grad.arizona.edu/programs/programinfo/BIACRTG',
+  program: 'Business Intelligence and Analytics',
+  degree: 'Certificate',
+    country: 'US',
+    state: 'AZ',
+  online: true,
+  oncampus: false,
+  department: 'Management')
+School.create(
+  name: 'University of Arkansas',
+    url: 'http://gsb.uark.edu/business-analytics-certificate/',
+  program: 'Business Analytics',
+  degree: 'Certificate',
+    country: 'US',
+    state: 'AR',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Arkansas',
+    url: 'http://gsb.uark.edu/master-of-information-systems/',
+  program: 'I.S. Business Analytics',
+  degree: 'Masters',
+    country: 'US',
+    state: 'AR',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Cal State University, East Bay',
+  url: 'http://www20.csueastbay.edu/cbe/msba/index.html',
+  program: 'MBA Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Cal State University, Fullerton',
+  url: 'http://extension.fullerton.edu/ProfessionalDevelopment/Certificates/Data-Science',
+  program: 'MBA Business Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'CA',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Cal State University, Fullerton',
+  url: 'http://business.fullerton.edu/graduateprograms/msis/',
+  program: 'Decision Sciences',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Cal State University, Long Beach',
+  url: 'http://web.csulb.edu/divisions/aa/catalog/current/cnsm/mathematics/mathms05.html',
+  program: 'Applied Statistics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Math and Statistics')
+School.create(
+  name: 'Chapman University',
+  url: 'http://www.chapman.edu/scst/graduate/ms-computational-sciences.aspx',
+  program: 'Computational and Data Sciences',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Math and Statistics')
+School.create(
+  name: 'South Dakota State University',
+  url: 'http://www.sdstate.edu/mathstat/grad/css-phd.cfm',
+  program: 'Computational Science and Statistics',
+  degree: 'Doctorate',
+  country: 'US',
+  state: 'SD',
+  online: false,
+  oncampus: true,
+  department: 'Math and Statistics')
+School.create(
+  name: 'National University',
+  url: 'http://www.nu.edu/OurPrograms/SchoolOfEngineeringAndTechnology/ComputerScienceAndInformationSystems/Programs/MasterofScienceinDataAnalytics.html',
+  program: 'Data Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Computer Science')
+School.create(
+  name: 'National University',
+  url: 'http://www.nu.edu/OurPrograms/SchoolOfHealthAndHumanServices/CommunityHealth/Programs/MasterofScienceinHealth&LifeScienceAnalytics.html',
+  program: 'Life Science Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'CA',
+  online: false,
+  oncampus: true,
+  department: 'Computer Science')
+
+
 
 
 
