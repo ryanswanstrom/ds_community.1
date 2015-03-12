@@ -2583,7 +2583,6 @@ School.create(
   online: false,
   oncampus: true,
   department: '')
-  department: '')
 School.create(
   name: 'Nova Southeastern University',
   url: 'http://medicine.nova.edu/msbi/curriculum.html',
