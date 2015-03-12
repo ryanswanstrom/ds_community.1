@@ -2563,6 +2563,247 @@ School.create(
   online: false,
   oncampus: true,
   department: 'Business')
+School.create(
+  name: 'Full Sail University',
+  url: 'http://www.fullsail.edu/degrees/online/business-intelligence-masters',
+  program: 'Business Intelligence',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Florida International University',
+  url: 'http://business.fiu.edu/fiubusiness/mshims/',
+  program: 'Health Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: '')
+  department: '')
+School.create(
+  name: 'Nova Southeastern University',
+  url: 'http://medicine.nova.edu/msbi/curriculum.html',
+  program: 'Biomedical Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Pasco-Hernando State College',
+  url: 'http://phsc.edu/program/healthcare-informatics-specialist-certificate',
+  program: 'Healthcare Informatics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'University of Central Florida',
+  url: 'http://www.ce.ucf.edu/Program/2626/Master-Of-Science-In-Health-Care-Informatics/',
+  program: 'Healthcare Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of Florida',
+  url: 'http://warrington.ufl.edu/graduate/academics/ms-isom/',
+  program: 'Business Intelligence and Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Miami',
+  url: 'http://www.bus.miami.edu/graduate-programs/specialized-masters/analytics/index.html',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of South Florida, Sarasota-Manatee',
+  url: 'http://usfsm.edu/catalog/graduate/college-of-business-degree-programs/college-of-business-certificate-programs/business-analytics-certificate/',
+  program: 'Business Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'FL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of South Florida',
+  url: 'http://www.usfhealthonline.com/programs/masters-degree/ms-health-informatics/',
+  program: 'Health Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'FL',
+  online: true,
+  oncampus: false,
+  department: 'Medicine')
+School.create(
+  name: 'Georgia State University',
+  url: 'http://specialized.robinson.gsu.edu/msa/',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'GA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Georgia Tech',
+  url: 'http://www.analytics.gatech.edu/',
+  program: 'Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'GA',
+  online: false,
+  oncampus: true,
+  department: 'Interdisciplinary')
+School.create(
+  name: 'Mercer University',
+  url: 'http://business.mercer.edu/business-analytics/',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'GA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of Georgia',
+  url: 'http://www.terry.uga.edu/mba/fulltime/concentrations/business-analytics',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'GA',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Elmhurst College',
+  url: 'http://public.elmhurst.edu/data_science/227880201.html',
+  program: 'Data Science',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Aurora University',
+  url: 'http://www.aurora.edu/academics/graduate/marketing/index.html#.VQEZRY73-iw',
+  program: 'Digital Marketing and Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Benedictine University',
+  url: 'http://www.ben.edu/college-of-business/graduate/master-of-science-in-business-analytics.cfm',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: false,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'Lewis University',
+  url: 'https://www.lewisu.edu/academics/business-analytics/index.htm',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: false,
+  department: 'Business')
+School.create(
+  name: 'Loyola University, Chicago',
+  url: 'http://www.luc.edu/math/msappliedstat.shtml',
+  program: 'Applied Statistics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: false,
+  oncampus: true,
+  department: 'Mathematics and Statistics')
+School.create(
+  name: 'Northwestern University',
+  url: 'http://sps.northwestern.edu/program-areas/professional-development/bridge-school/index.php',
+  program: 'Predictive Business Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'IL',
+  online: false,
+  oncampus: true,
+  department: '')
+School.create(
+  name: 'Northwestern University',
+  url: 'http://sps.northwestern.edu/program-areas/advanced-graduate/analytics-business-intelligence/index.php',
+  program: 'Analytics and Business Intelligence',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'Northwestern University',
+  url: 'http://sps.northwestern.edu/program-areas/graduate/information-systems/index.php',
+  program: 'Analytics and Business Intelligence',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of Illinois at Chicago',
+  url: 'http://healthinformatics.uic.edu/',
+  program: 'Health Informatics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: false,
+  department: '')
+School.create(
+  name: 'University of St Francis',
+  url: 'http://www.stfrancis.edu/academics/master-of-business-administration/',
+  program: 'Business Analytics',
+  degree: 'Masters',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: true,
+  department: 'Business')
+School.create(
+  name: 'University of St Francis',
+  url: 'http://www.stfrancis.edu/academics/college-of-business/graduate-certificate-business-analytics/',
+  program: 'Business Analytics',
+  degree: 'Certificate',
+  country: 'US',
+  state: 'IL',
+  online: true,
+  oncampus: true,
+  department: 'Business')
 
 
 
