@@ -2937,6 +2937,34 @@ School.create(
 #   online: false,
 #   txt: '13 week full-time program',
 #   price: 8000)
+Bootcamp.create(
+  name: 'Science to Data Science',
+  url: 'http://www.s2ds.org/',
+  program: 'Data Science',
+  country: 'UK',
+  state: '',
+  online: false,
+  txt: '5 week workshop program',
+  price: 0)
+Bootcamp.create(
+  name: 'Insight Health Data Science',
+  url: 'http://insighthealthdata.com/',
+  program: 'Data Science',
+  country: 'US',
+  state: 'MA',
+  online: false,
+  txt: '7 week program, PhD required',
+  price: 0)
+Bootcamp.create(
+  name: 'ASI Fellowship',
+  url: 'http://www.theasi.co/fellowship',
+  program: 'Data Science',
+  country: 'UK',
+  state: '',
+  online: false,
+  txt: '8 week post-doctoral fellowship',
+  price: 0)
+
 
 
 
